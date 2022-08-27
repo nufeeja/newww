@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url(""../images/nnn.jpg"); */
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Header */
+header{
+    background-color: rgb(12, 10, 10);
+    height: 8em;
+}
+#logo{
+    margin-left: 75px;
+    margin-top: 8px;
+    height: 7em;
+    margin-bottom: 15px;
+}
+.navigation{
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+    padding-top: 30px;
+}
+
+.navigation a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+   margin: 5px;
+    text-decoration:none;
+   
+}
+.navigation a:hover{
+    background-color: teal;
+    color: black;
+}
+
+/* Aside */
+.side{
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 100px;
+    width: 50%;
+    float: left;
+}
+.side h3{
+    padding-bottom: 15px;
+}
+.side li{
+    padding: 2px;
+    font-size: 12px;
+    list-style-type: square;
+}
+
+/* login */
+.my_login{
+border: 1px solid white;
+
+float:right;
+background-color: rgb(206, 192, 219);
+height: 15em;
+padding: 30px;
+margin-right: 20px;
+
+}
+.my_login h2{
+    text-align: center;
+}
+
+#logg{
+    background-color: dodgerblue;
+    width: 100%;
+    border: none;
+    color: white;
+    height: 1.5em;
+}
+/* courses */
+.container{
+    margin-top: 400px;
+    margin-left: 60px;
+
+}
+.p-box{
+    width: 22%;
+    float: left;
+    border: 3px solid white;
+    margin-left: 5px;
+    padding: 5px;
+    background-color: rgb(238, 214, 214);
+    height: 13em;
+    
+}
+.p-box p{
+    text-align: justify;
+}
+.p-box h4{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.p-box a{
+    color: red;
+    text-decoration: none;
+}
+
+/* footer start */
+footer{
+    margin-top: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 1.5em;
+}
